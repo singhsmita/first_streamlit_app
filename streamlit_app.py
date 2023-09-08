@@ -16,7 +16,7 @@ import streamlit as streamlit
 streamlit.title("My parents' New Healthy Diner.")
 
 # Subheading
-streamlit.markdown("## Subheading 1")
+# streamlit.markdown("## Subheading 1")
 
 # Display the breakfast menu
 streamlit.write("Breakfast Menu")
