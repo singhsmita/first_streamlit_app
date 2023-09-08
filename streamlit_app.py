@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('My parents New Healthy Diner.')
 
-st.subheader("Breakfast Menu")
+st.subheader("Breakfast Favourites")
 
 multiline_text = """
 🥣 Omega 3 & Blueberry Oatmeal \n
@@ -12,6 +12,7 @@ multiline_text = """
 """
 
 st.write(multiline_text)
-
+st.header(" 🍌🥭 Build your own Fruit Smoothie 🥝🍇")
+ 
 
 
