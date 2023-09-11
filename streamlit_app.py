@@ -25,7 +25,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 
 #interactive list
 
-st.multiselect("Pick some fruits:", list(my_fruit_list.index))
+st.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado' , 'Strawberries'])
 st.dataframe(my_fruit_list)
 
 
