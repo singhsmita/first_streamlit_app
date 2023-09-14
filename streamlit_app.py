@@ -52,7 +52,8 @@ my_data_row = my_cur.fetchone()
 st.header("The fruit load conatins:")
 #st.text("The fruit load list contains:")
 #st.text("Hello from Snowflake:")
-st.text(my_data_row)
+#st.text(my_data_row)
+st.dataframe(my_data_row)
 
 
 
