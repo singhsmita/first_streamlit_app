@@ -47,7 +47,7 @@ try:
   else:
       back_from_function = get_fruityvice_data(fruit_choice)
       st.dataframe(fruityvice_normalized)
-except URLerror as e:
+except URLError as e:
     st.error()
 
 # write your own comment -what does the next line do? 
