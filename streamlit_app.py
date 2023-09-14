@@ -3,7 +3,7 @@ import pandas as pd
 
 import requests
 
-
+st.header("Fruityvice Fruit Advice!")
 # Add a title
 st.title('My parents New Healthy Diner.')
 
@@ -35,6 +35,9 @@ st.dataframe(fruits_to_show)
 
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 st.text(fruityvice_response)
+
+
+
 
 
 
