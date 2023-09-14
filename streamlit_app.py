@@ -55,6 +55,8 @@ st.header("The fruit load conatins:")
 #st.text(my_data_row)
 st.dataframe(my_data_rows)
 
+fruit_input = st.text_input('What fruit would you like to add?','Jackfruit')
+st.write('Thanks for adding', fruit_input)
 
 
 
